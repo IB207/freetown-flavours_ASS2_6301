@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Freetown Flavours</title>
+  <meta name="description" content="Address, phone, email and opening hours for Freetown Flavours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html"><span class="logo" aria-hidden="true">FF</span>Freetown Flavours</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list" id="site-nav">
+        <li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="book.html">Book a table</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container section">
+      <h1>Find us</h1>
+      <div class="split">
+        <ul class="info-list">
+          <li><span>Address</span><strong>12 Siaka Stevens Street, Freetown</strong></li>
+          <li><span>Phone</span><strong>+232 99-16-40-44</strong></li>
+          <li><span>Email</span><strong>byg.gazworld@gmail.com</strong></li>
+          <li><span>Opening hours</span><strong>Mon&ndash;Sun, 10:00 &ndash; 22:00</strong></li>
+        </ul>
+        <form class="form" id="contact-form" novalidate>
+          <h2>Send us a message</h2>
+          <div class="field">
+            <label for="cname">Your name</label>
+            <input type="text" id="cname" name="name" required>
+            <span class="error" id="cname-error" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="cemail">Your email</label>
+            <input type="email" id="cemail" name="email" required>
+            <span class="error" id="cemail-error" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write to us..." required></textarea>
+            <span class="error" id="message-error" role="alert"></span>
+          </div>
+          <button class="btn" type="submit">Send message</button>
+          <p class="notice" id="contact-notice" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Freetown Flavours, 12 Siaka Stevens Street, Freetown.</p>
+      <p><a href="book.html">Book a table</a> &middot; <a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Freetown Flavours</title>
+  <meta name="description" content="Freetown Flavours serves fresh Sierra Leonean food. View the menu and book a table online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html"><span class="logo" aria-hidden="true">FF</span>Freetown Flavours</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list" id="site-nav">
+        <li><a href="index.html" aria-current="page">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="book.html">Book a table</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <h1 id="hero-title">Taste the real Freetown.</h1>
+          <p>Sierra Leonean classics, cooked fresh every day. Browse the menu and book your table in seconds.</p>
+          <div class="btn-row">
+            <a class="btn btn-white" href="book.html">Book a table</a>
+            <a class="btn btn-ghost" href="menu.html">View menu</a>
+          </div>
+        </div>
+        <img class="photo photo-wide" src="images/WhatsApp Image 2026-10-27 at 4.35.58 AM.jpeg" alt="A table of cassava leaf, jollof rice and fried plantain">
+      </section>
+
+      <section class="section" aria-labelledby="specials-title">
+        <h2 id="specials-title">Today's specials</h2>
+        <div class="grid grid-3">
+        <article class="card">
+          <img class="photo" src="images/WhatsApp Image 2026-10-27 at 4.45.05 AM.jpeg" alt="Cassava Leaf &amp; Rice" loading="lazy">
+          <div class="card-body">
+            <h3>Cassava Leaf &amp; Rice</h3>
+            <p class="muted">Slow-cooked with palm oil and fish.</p>
+            <p class="price">Le 85</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="photo" src="images/WhatsApp Image 2026-10-27 at 4.46.26 AM.jpeg" alt="Jollof Rice &amp; Chicken" loading="lazy">
+          <div class="card-body">
+            <h3>Jollof Rice &amp; Chicken</h3>
+            <p class="muted">Smoky party-style jollof with grilled chicken.</p>
+            <p class="price">Le 95</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="photo" src="images/WhatsApp Image 2026-10-27 at 4.46.55 AM.jpeg" alt="Fried Plantain &amp; Beans" loading="lazy">
+          <div class="card-body">
+            <h3>Fried Plantain &amp; Beans</h3>
+            <p class="muted">Sweet plantain with spiced beans.</p>
+            <p class="price">Le 60</p>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="review-title">
+        <h2 id="review-title">What our guests say</h2>
+        <blockquote class="review">
+          <p>Best cassava leaf in Freetown. I booked online in under a minute!</p>
+          <footer><span class="logo" aria-hidden="true">AB</span>Aminata B.</footer>
+        </blockquote>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Freetown Flavours, 12 Siaka Stevens Street, Freetown.</p>
+      <p><a href="book.html">Book a table</a> &middot; <a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+</body>
+</html>

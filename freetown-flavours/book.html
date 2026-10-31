@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a table | Freetown Flavours</title>
+  <meta name="description" content="Reserve a table at Freetown Flavours online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html"><span class="logo" aria-hidden="true">FF</span>Freetown Flavours</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list" id="site-nav">
+        <li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="book.html" aria-current="page">Book a table</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container section">
+      <h1>Reserve your spot</h1>
+      <p class="muted">Tell us when you are coming and we will confirm by phone.</p>
+      <form class="form" id="booking-form" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Fatmata Kamara" required>
+          <span class="error" id="name-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+232 7X XXX XXX" required>
+          <span class="error" id="phone-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+          <span class="error" id="date-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" required>
+          <span class="error" id="time-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="guests">Guests</label>
+          <select id="guests" name="guests">
+            <option>1 person</option><option selected>2 people</option><option>3 people</option>
+            <option>4 people</option><option>5 people</option><option>6 or more</option>
+          </select>
+        </div>
+        <button class="btn" type="submit">Confirm reservation</button>
+        <p class="notice" id="booking-notice" role="status"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Freetown Flavours, 12 Siaka Stevens Street, Freetown.</p>
+      <p><a href="book.html">Book a table</a> &middot; <a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+</body>
+</html>

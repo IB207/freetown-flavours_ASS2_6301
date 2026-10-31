@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Freetown Flavours</title>
+  <meta name="description" content="Browse our Sierra Leonean menu with prices.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html"><span class="logo" aria-hidden="true">FF</span>Freetown Flavours</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list" id="site-nav">
+        <li><a href="index.html">Home</a></li><li><a href="menu.html" aria-current="page">Menu</a></li><li><a href="book.html">Book a table</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container section">
+      <h1>Our menu</h1>
+      <p class="muted">Fresh Sierra Leonean food, made the way we grew up eating it.</p>
+      <div class="chips" role="group" aria-label="Filter dishes by category">
+        <button class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="mains" aria-pressed="false">Mains</button>
+        <button class="chip" data-filter="sides" aria-pressed="false">Sides</button>
+        <button class="chip" data-filter="drinks" aria-pressed="false">Drinks</button>
+      </div>
+      <div class="menu-list">
+      <article class="dish" data-category="mains">
+        <img class="photo photo-square" src="images/WhatsApp Image 2026-10-27 at 4.45.05 AM.jpeg" alt="Cassava Leaf &amp; Rice" width="120" height="120" loading="lazy">
+        <div>
+          <h3>Cassava Leaf &amp; Rice</h3>
+          <p>Slow-cooked with palm oil and fish.</p>
+          <p class="price">Le 85</p>
+        </div>
+      </article>
+      <article class="dish" data-category="mains">
+        <img class="photo photo-square" src="images/WhatsApp Image 2026-10-27 at 4.45.58 AM.jpeg" alt="Groundnut Soup" width="120" height="120" loading="lazy">
+        <div>
+          <h3>Groundnut Soup</h3>
+          <p>Rich peanut stew with chicken.</p>
+          <p class="price">Le 90</p>
+        </div>
+      </article>
+      <article class="dish" data-category="mains">
+        <img class="photo photo-square" src="images/WhatsApp Image 2026-10-27 at 4.46.26 AM.jpeg" alt="Jollof Rice &amp; Chicken" width="120" height="120" loading="lazy">
+        <div>
+          <h3>Jollof Rice &amp; Chicken</h3>
+          <p>Smoky party-style jollof.</p>
+          <p class="price">Le 95</p>
+        </div>
+      </article>
+      <article class="dish" data-category="sides">
+        <img class="photo photo-square" src="images/WhatsApp Image 2026-10-27 at 4.46.55 AM.jpeg" alt="Fried Plantain" width="120" height="120" loading="lazy">
+        <div>
+          <h3>Fried Plantain</h3>
+          <p>Golden and lightly salted.</p>
+          <p class="price">Le 35</p>
+        </div>
+      </article>
+      <article class="dish" data-category="drinks">
+        <img class="photo photo-square" src="images/WhatsApp Image 2026-10-27 at 4.47.33 AM.jpeg" alt="Ginger Juice" width="120" height="120" loading="lazy">
+        <div>
+          <h3>Ginger Juice</h3>
+          <p>Fresh, cold and spicy.</p>
+          <p class="price">Le 25</p>
+        </div>
+      </article>
+      </div>
+      <div class="btn-row"><a class="btn" href="book.html">Book a table</a></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Freetown Flavours, 12 Siaka Stevens Street, Freetown.</p>
+      <p><a href="book.html">Book a table</a> &middot; <a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+</body>
+</html>
