@@ -115,3 +115,26 @@ The site is deployed with GitHub Pages:
 ## License
 
 This project was created for educational purposes as part of a university assignment.
+
+
+
+                                                                                                                                CREATED BY:IBRAHIM ORDA BANGURA
+                                                                                                                                
+                                                                                                                                
+                                                                                                                                
+                                                                                                                               
+                                                                                                                                
+HOME PAGE
+<img width="390" height="844" alt="Group 5" src="https://github.com/user-attachments/assets/9614cd92-cbbf-4eca-a39e-abab0194c300" />
+
+MENEU PAGE
+<img width="390" height="844" alt="Group 4" src="https://github.com/user-attachments/assets/a44981d2-ab89-43d4-b7b4-0febdb36a149" />
+
+SERVICES PAGE/BOOK A TABLE
+<img width="390" height="844" alt="Reservation" src="https://github.com/user-attachments/assets/629f7a72-56ed-4575-846b-daf2ba40bbe3" />
+
+ABOUT PAGE
+<img width="390" height="844" alt="Group 2" src="https://github.com/user-attachments/assets/82e62493-b401-4130-b831-d875619e2ba4" />
+
+CONTACT PAGE
+<img width="390" height="844" alt="Group 1" src="https://github.com/user-attachments/assets/f01e0b8d-008f-44f0-abaa-72ad2aba2728" />
